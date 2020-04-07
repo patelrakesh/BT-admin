@@ -1,0 +1,143 @@
+.action i{
+    cursor: pointer;
+}
+@media (min-width: 576px){
+   #add_location, #edit_location {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+   #add_property {
+        max-width: 1000px;
+        margin: 1.75rem auto;
+    }
+}
+.pagination a {
+    margin-left: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+ul.pagination {
+    position: absolute;
+    right: 5em;
+    bottom: -5em;
+}
+.page_css{
+    position: relative;
+    margin-bottom: 7em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.pagination .active a {
+    z-index: 1;
+    color: #fff;
+    background-color: #545cd8;
+    border-color: #007bff;
+}
+.page_css .col-xs-4 div:first-child {
+    display: none;
+}
+.page_css .col-xs-4 div:last-child label {
+    display: none;
+}
+#search-field {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 15px;
+    margin-right: 10em;
+    margin-left: 15px;
+}
+.pac-container {
+    z-index: 99999;
+}
+.required_message {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.Toastify__toast-container--top-right {
+    top: 5em !important;
+}
+
+.Toastify__toast-body {
+    text-align: left !important;
+}
+
+
+.autocmplt {
+    position: absolute;
+    width: 95%;
+    bottom: 36em;
+}
+
+.autocmplt input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+#user_tbl .container {
+    max-width: 100%;
+    padding: 0;
+}
+#user_tbl .pe-7s-mail, #user_tbl .pe-7s-comment {
+    font-size: 25px;
+    color: #000;
+}
+#user_tbl .pe-7s-mail {
+    padding-left: 3px;
+}
+.rc-checkbox-checked .rc-checkbox-inner {
+    border-color: rgb(0, 122, 217);
+    background-color: rgb(0, 122, 217);
+}
+.filterTree {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.search_location input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+

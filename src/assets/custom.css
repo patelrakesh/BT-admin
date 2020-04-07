@@ -1,0 +1,58 @@
+.main-container {
+    background-color: #000000b3;
+    height: 70px;
+    padding: 10px 20px;
+}
+.header_links li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.header_links {
+    margin-bottom: 0px;
+    margin: 10px 0;
+}
+.avatar{
+    border-radius: 40px;
+    width: 50px;
+}
+.user_deatils{
+    font-size: 15px;
+}
+.ftr{
+    background-color: #000000b3;
+    overflow-x: hidden;
+    padding: 10px 20px;
+    color: #fff;
+}
+.btn_ftr p {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.btm_ftr {
+    width: 99%;
+}
+.first_ftr p {
+    margin-top: 10px;
+}
+.first_ftr h2 {
+    margin-top: 20px;
+}
+.footer_links{
+    list-style: none;
+    padding: 0;
+}
+.footer_links li {
+    padding: 20px;
+    border-bottom: 1px solid #ffffff47;
+}
+.cntct form{
+    padding-top: 30px;
+}
+.footer_links li:last-child {
+    border: unset;
+}
+.btn_ftr{
+    width: 99%;
+}
