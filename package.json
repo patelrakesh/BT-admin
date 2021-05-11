@@ -12,7 +12,7 @@
     "axios": "^0.19.2",
     "classnames": "^2.2.6",
     "deep-diff": "^1.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mdbreact": "^4.25.4",
     "rc-checkbox": "^2.1.8",
     "react": "^16.12.0",
